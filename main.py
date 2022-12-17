@@ -11,7 +11,7 @@ def gammaCorrection(image, g=1):
     lut = lut.astype("uint8")
     return cv2.LUT(image, lut)
 
-cap = cv2.VideoCapture("balls/videos/balls.mp4")
+cap = cv2.VideoCapture("videos/balls.mp4")
 cv2.namedWindow("Camera", cv2.WINDOW_KEEPRATIO)
 
 
